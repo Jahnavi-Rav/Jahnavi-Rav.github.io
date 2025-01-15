@@ -1,5 +1,28 @@
 title: "Jahnavi Ravi Portfolio"
-email: jahnaviravi1998@gmail.com
-description: "Portfolio site for showcasing projects in 3D Computer Vision"
+email: "jahnaviravi1998@gmail.com"
+description: "A portfolio site for showcasing my projects in 3D Computer Vision."
 theme: minima
-layout: default
+baseurl: "" # Leave blank unless the site is in a subdirectory
+url: ""     # Add your site's domain here if hosted online (e.g., "https://example.com")
+permalink: pretty
+
+# Markdown settings
+markdown: kramdown
+highlighter: rouge
+
+# Include folders and files
+include:
+  - _pages
+  - _posts
+  - assets
+
+# Social media links (optional, for footer or sidebar links)
+social_links:
+  linkedin: "https://linkedin.com/in/jahnaviravi"
+  github: "https://github.com/Jahnavi-Rav"
+
+
+# Author metadata
+author:
+  name: "Jahnavi Ravi"
+  email: "jahnaviravi1998@gmail.com"
